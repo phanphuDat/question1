@@ -1,7 +1,18 @@
+import "./App.css"
+import SideBar from "./SideBar/SideBar";
+import Content from "./Content/Content";
+import Footer from './Footer/Footer';
+
 function App() {
   return (
-    <div>
-      <h1>test</h1>
+    <div className="App">
+      <div>
+        <SideBar />
+      </div>
+      <div className="page">
+        <Content />
+        <Footer />
+      </div>
     </div>
   );
 }
