@@ -6,9 +6,7 @@ import Footer from './Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <div>
         <SideBar />
-      </div>
       <div className="page">
         <Content />
         <Footer />
